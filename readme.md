@@ -1,35 +1,19 @@
-# Simple Tailwind Starter
+# Shortly Website
 
-This is a simple Tailwind starter project using the Tailwind CLI. It is meant to be used as a starting point for your projects. This is the same setup used in my [Tailwind From Scratch Course](https://www.traversymedia.com/tailwind-css-course).
+Shortly landing page from my Tailwind course and from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 
 ## Usage
 
-Clone the repo:
+Install dependencies
 
-```bash
-git clone
+```
+npm Install
 ```
 
-Install the dependencies:
+Run Tailwind CLI
 
-```bash
-npm install
 ```
-
-Build or watch the CSS file:
-
-```bash
-# Build once
-npm run build
-
-# Watch for changes
 npm run watch
 ```
 
-This will watch the `src/input.css` file and build it to `css/style.css`, which will be your final CSS file.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-# loopstudios
-# loopstudios
+![Alt text](images/shortly.png)
