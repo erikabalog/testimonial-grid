@@ -1,6 +1,7 @@
 const btn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 
+<<<<<<< HEAD
 const input = document.getElementById("link-input");
 const linkForm = document.getElementById("link-form");
 const errMsg = document.getElementById("err-msg");
@@ -9,11 +10,16 @@ btn.addEventListener("click", navToggle);
 linkForm.addEventListener("submit", formSubmit);
 
 // Toggle Mobile Menu
+=======
+btn.addEventListener("click", navToggle);
+
+>>>>>>> c4b8275c689e5dafdffe9b90d9d6f4182b5e4d3d
 function navToggle() {
   btn.classList.toggle("open");
   menu.classList.toggle("flex");
   menu.classList.toggle("hidden");
 }
+<<<<<<< HEAD
 
 // Validate a URL
 function validURL(str) {
@@ -44,3 +50,5 @@ function formSubmit(e) {
     alert("Success");
   }
 }
+=======
+>>>>>>> c4b8275c689e5dafdffe9b90d9d6f4182b5e4d3d
